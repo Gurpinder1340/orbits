@@ -1,8 +1,12 @@
+#ifndef CENTER_H
+#define CENTER_H
+
 #include <bn_fixed_point.h>
 #include <bn_sprite_ptr.h>
 
 #include "movement.h"
 #include "bn_sprite_items_square.h"
+
 
 /**
  * A center of mass to be orbited around. Position is controlled by the player.
@@ -33,3 +37,5 @@ private:
     bn::fixed _speed; //the speed at which the center moves when the d-pad is held
 
 };
+
+#endif
